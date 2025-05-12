@@ -1,0 +1,12 @@
+calculating cube,square 
+
+#include <stdio.h>
+int main()
+{
+ int num,sq,cu;
+ printf("enter the number:");
+ scanf("%d",&num);
+ sq = num*num;
+ cu = num*num*num;
+ printf("The square is: %d \n The cube is: %d",sq,cu);
+}
