@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+ int a,b,c,d,e;
+ int sum;
+ float average; 
+ printf("enter your mark:");
+ scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+ sum = a+b+c+d+e;
+ average = sum/5;
+ printf("sum: %d\n",sum);
+ printf("average: %d\n",average);
+ return 0;
+}
