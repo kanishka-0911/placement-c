@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int amount;
+    int per;
+    int time;
+    printf("enter the amount:");
+    scanf("%d",&amount);
+    printf("Enter per:");
+    scanf("%d",&per);
+    printf("enter time:");
+    scanf("%d",&time);
+    int interest = amount + (amount*per/100);
+    printf("%d", interest*time);
+    printf("%d\n",interest);
+
+    return 0;
+}
